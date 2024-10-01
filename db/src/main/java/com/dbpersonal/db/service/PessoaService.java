@@ -16,7 +16,7 @@ public class PessoaService {
 
     @PostConstruct
     public void salvarPessoasIniciais() {
-        Pessoa pessoa1 = new Pessoa("João", 28, "Masculino", "Atlético", "Intermediário");
+        Pessoa pessoa1 = new Pessoa("João", 28, "Masculino", "Ectomorfo", "Intermediário");
         Pessoa pessoa2 = new Pessoa("Maria", 22, "Feminino", "Endomorfo", "Iniciante");
 
         pessoaRepository.save(pessoa1);
